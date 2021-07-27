@@ -1,7 +1,13 @@
 # godaddy-ip-update
 It updates the `A` record type for Godaddy's domains based on your public IP.
 
-## Commands
+## Requirements
+
+> pip install godaddypy
+> 
+> python 3
+
+### Commands
 
 > **`get_domains()`** -> get all listed domains in your account.
 
