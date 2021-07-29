@@ -1,8 +1,6 @@
 from godaddypy import Client, Account
 from requests import get
 
-import json
-
 my_acct = Account(api_key='YOUR-ACCESS-KEY', api_secret='YOUR-SECRET-KEY')
 client = Client(my_acct)
 
